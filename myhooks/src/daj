@@ -1,0 +1,9 @@
+<div className="card" style={{width: '18rem'}}>
+                <img src={this.props.avatar_url}  className="card-img-top border " alt="..."/>
+                    <div className="card-body">
+                        <h5 className="card-title"> {this.props.login} </h5>
+                        <p className="card-text">Madan rijal Magar is one of the most fucked people in this world.</p>
+                        <a href={this.props.html_url} className="btn btn-secondary">View Details</a>
+                    </div>
+            </div>
+
